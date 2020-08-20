@@ -30,13 +30,13 @@ strong {
 }
 /*** 字号统一尺寸***/
 p{
-    font-size: .4rem;
+    font-size: 1.5rem;
 }
 h2{
-    font-size: .6rem;
+    font-size: 2.5rem;
 }
 h3{
-    font-size: .5rem;
+    font-size: 2rem;
 }
 
 /*
@@ -51,8 +51,8 @@ h3{
     bottom:.2rem;
     left: .5rem;
     
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 5rem;
+    height: 5rem;
     background: #99999990;
 
     text-align: center;
@@ -60,8 +60,8 @@ h3{
     border-radius: 50%;
 
     img{
-        width: .6rem;
-        height: .6rem;
+        width: 2rem;
+        height: 2rem;
 
         margin-top: .1rem;
     }
@@ -69,7 +69,7 @@ h3{
     p{  
         // margin-top: -.1rem;
         color: #ffffff;
-        font-size: .4rem;
+        // font-size: rem;
     }
 }
 
@@ -89,8 +89,8 @@ h3{
     .list{
 
         li{
-            width: 1.5rem;
-            height: 1.5rem;
+            width: 5rem;
+            height: 5rem;
             background: rgb(12, 12, 12);
 
             position: absolute;
@@ -101,16 +101,17 @@ h3{
             border-radius: 50%;
 
             img{
-                margin-top: .05rem;
-                width: .6rem;
-                height: .6rem;
+                // margin-top: .05rem;
+                width: 2rem;
+                height: 2rem;
+                // background:#fff ;
             }
 
             p{  
                 position: relative;
                 color: #fff;
-                margin-top: -.1rem;
-                font-size: .4rem;
+                // margin-top: -.1rem;
+                // font-size: .4rem;
             }
 
             &:last-child{
@@ -121,24 +122,25 @@ h3{
 
             &:nth-child(1){
                 position: relative;
-                left:3%;
-                top:12rem;
+                left:1%;
+                top:38rem;
+                // bottom: 5rem;
             }
             &:nth-child(2){
                 position: relative;
-                left:21%;
-                top:11.3rem;
+                left:19%;
+                top:36rem;
                 // top: 10%rem;
             }
             &:nth-child(3){
                 position: relative;
-                left:34%;
-                top:11.22rem;
+                left:33%;
+                top:35.3rem;
             }
             &:nth-child(4){
                 position: relative;
                 left:38%;
-                top:11.6rem;
+                top:35.6rem;
             }
             
         }
@@ -154,8 +156,8 @@ h3{
     // left: 77%;
     // top: 82%;
 
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 5rem;
+    height: 5rem;
     background: #be070795;
 
     text-align: center;
@@ -163,16 +165,15 @@ h3{
     border-radius: 50%;
 
     img{
-        width: .6rem;
-        height: .6rem;
-
+        width: 2rem;
+        height: 2rem;
         margin-top: .1rem;
     }
 
     p{
         // margin-top: -.2rem;
         color: #ffffff;
-        font-size: .4rem;
+       
     }
 }
 
@@ -182,12 +183,12 @@ h3{
     position: fixed;
     bottom:0.2rem;
     left: 50%;
-    margin-left: -.75rem;
+    margin-left: -2.5rem;
     // left: 5%;
     // top: 82%;
 
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 5rem;
+    height: 5rem;
     background: #99999990;
 
     text-align: center;
@@ -195,15 +196,15 @@ h3{
     border-radius: 50%;
 
     img{
-        width: .6rem;
-        height: .6rem;
+        width: 2rem;
+        height: 2rem;
 
         margin-top: .1rem;
     }
 
     p{  
-        margin-top: -.1rem;
+        // margin-top: -.1rem;
         color: #ffffff;
-        font-size: .4rem;
+        
     }
 }

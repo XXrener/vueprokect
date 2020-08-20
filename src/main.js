@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import 'lib-flexible'
+// import 'lib-flexible'
 
 //引入路由
 
@@ -22,7 +22,7 @@ const routes = [
   { path:'/satart',component:Satart },
   { path:'/cart' ,component: Cart },
   { path:'/home' ,component: Home },
-  { path:'/hot' ,conponents: Hot },
+  { path:'/hot' ,component: Hot },
   { path:'/order' ,component: Order },
   { path:'/pcontent' ,component: Pcontent },
   { path:'/search' ,component: Search },

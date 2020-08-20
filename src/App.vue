@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-   
+    <router-link to='hot'></router-link>
     <router-view></router-view>
     <!-- <router-link to="satart"></router-link> -->
     
@@ -8,7 +8,7 @@
 </template>
 
 <script>
-
+import './assets/css/basic.scss'
 export default {
   name: 'app',
   data () {
@@ -19,6 +19,6 @@ export default {
 }
 </script>
 
-<style lang="scss">
-
+<style lang="scss" scoped>
+  
 </style>
