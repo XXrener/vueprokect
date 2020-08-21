@@ -47,19 +47,23 @@
         </ul>
       </div>
     </div>
+    <v-navfooter></v-navfooter>
   </div>
 </template>
 
 <script>
-import urltimer from '../assets/images/timer.png'
+import navfooter from './public/NavFooter'
 export default {
   name: "order",
   data() {
     return {
-        urltimer,
+        urltimer: require('../assets/images/timer.png'),
       msg: "开始组件挂载",
     };
   },
+  components:{
+    'v-navfooter':navfooter
+  }
 };
 </script>
 

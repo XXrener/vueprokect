@@ -30,7 +30,7 @@
       </ul>
 
       <!-- 菜单按钮 -->
-      <div class="nav_cate" id="nav_cate" @click="asideDomInit()">
+      <div class="nav_cate" id="nav_cate">
         <img :src="urlnav" />
         <p>菜单</p>
       </div>
@@ -462,10 +462,10 @@
     <div class="masking" id="masking"></div>
 
     <!-- 定位按钮 导航 购物车 -->
-    <div class="footer_nav">
+    <!-- <div class="footer_nav">
       <img :src="urlnavigation" alt />
       <p>导航</p>
-    </div>
+    </div> -->
 
     <div class="footer_cart">
       <img :src="urlcart" alt />
@@ -529,7 +529,7 @@ export default {
     },
   },
   mounted() {
-    asideDomInit();
+    this.asideDomInit();
   },
   components:{
     'v-navfooter':navfooter
